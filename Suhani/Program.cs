@@ -17,10 +17,6 @@ namespace Swarm_Robotics_Assign_2
             x = X;
             y = Y;
         }
-        /*public Vector2(Vector R)
-        {
-                r = R.r;
-        }*/
         public Vector(Vector V)
         {
             x = V.x;
@@ -70,8 +66,6 @@ namespace Swarm_Robotics_Assign_2
         static void Main(string[] args)
         {
             Vector V1 = new Vector(0, 0);
-            //Vector R1 = new Vector(10);
-            //Vector R2 = new Vector(5);
             double R1 = 10;
             double R2 = 5;
             Circle C = new Circle(V1, R2, R1);
